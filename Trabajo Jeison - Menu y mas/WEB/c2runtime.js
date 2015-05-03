@@ -18636,7 +18636,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[650, 209, 0, 27, 33, 0, 0, 0.7, 0.509804, 0.507042, 0, 0, []],
+				[645.431, 152, 0, 20, 33, 0, 0, 0.7, 0.509804, 0.507042, 0, 0, []],
 				18,
 				39,
 				[
@@ -20681,55 +20681,6 @@ false,false,8135845155955668,false
 			null,
 			false,
 			null,
-			5893419719543384,
-			[
-			[
-				4,
-				cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
-				null,
-				1,
-				false,
-				false,
-				false,
-				5421542820698438,
-				false
-				,[
-				[
-					3,
-					0
-				]
-,				[
-					3,
-					0
-				]
-,				[
-					4,
-					18
-				]
-				]
-			]
-			],
-			[
-			[
-				5,
-				cr.plugins_.Audio.prototype.acts.SetSilent,
-				null,
-				2889913944786062,
-				false
-				,[
-				[
-					3,
-					0
-				]
-				]
-			]
-			]
-		]
-,		[
-			0,
-			null,
-			false,
-			null,
 			3880789241335946,
 			[
 			[
@@ -20764,6 +20715,107 @@ false,false,8135845155955668,false
 				cr.plugins_.Audio.prototype.acts.SetSilent,
 				null,
 				5331511577072783,
+				false
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				17,
+				cr.plugins_.Sprite.prototype.acts.SetVisible,
+				null,
+				8935895285856249,
+				false
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				18,
+				cr.plugins_.Sprite.prototype.acts.SetVisible,
+				null,
+				6115468551314824,
+				false
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			7690079949612329,
+			[
+			[
+				4,
+				cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+				null,
+				1,
+				false,
+				false,
+				false,
+				5334985547705768,
+				false
+				,[
+				[
+					3,
+					0
+				]
+,				[
+					3,
+					0
+				]
+,				[
+					4,
+					18
+				]
+				]
+			]
+			],
+			[
+			[
+				5,
+				cr.plugins_.Audio.prototype.acts.SetSilent,
+				null,
+				2095401799693111,
+				false
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				18,
+				cr.plugins_.Sprite.prototype.acts.SetVisible,
+				null,
+				9853732802566747,
+				false
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				17,
+				cr.plugins_.Sprite.prototype.acts.SetVisible,
+				null,
+				3945438068808759,
 				false
 				,[
 				[
