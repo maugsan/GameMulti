@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventFIN</name>
+    <events>
+        <event-block sid="1145619543001544">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8831705796597628" type="Touch">
+                    <param id="0" name="Object">tNivel1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4952975875634961" type="System">
+                    <param id="0" name="Layout">Nivel1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5757648640995084">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9828177523063599" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="8528419717602086" type="MisPuntos">
+                    <param id="0" name="Text">&quot;Tienes &quot;&amp; Puntaje&amp;&quot; puntos&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9154548369618426">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7243910215618694" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="5100159617988386" type="Record">
+                    <param id="0" name="Text">&quot;Tu Record &quot;&amp; record&amp;&quot; puntos&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4387606528743609">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9273637743021517" type="Keyboard">
+                    <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9840203423171998" type="System">
+                    <param id="0" name="Layout">Niveles</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
