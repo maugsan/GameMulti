@@ -10,10 +10,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<<<<<<< HEAD
         <layout>NivelLaberinto</layout>
         <layout>menuNiveles</layout>
         <layout active="1">Nivel2</layout>
         <event-sheet>eventLaberinto</event-sheet>
+=======
+        <layout>Niveles</layout>
+        <layout>Nivel2</layout>
+        <layout>PaginaPrincipal</layout>
+        <layout>Nivel1</layout>
+        <event-sheet>eventNiveles</event-sheet>
+        <event-sheet active="1">eventNivel2</event-sheet>
+        <event-sheet>eventNivel1</event-sheet>
+        <event-sheet>eventPaginaPrincipal</event-sheet>
+>>>>>>> 5342a2c7018ec36dbb1c4cdc7431a2884f3af0cd
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
