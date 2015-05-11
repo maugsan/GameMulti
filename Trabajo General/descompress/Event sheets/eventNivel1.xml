@@ -270,59 +270,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="7495917335036921">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="1308669739632134" type="System">
-                    <param id="0" name="Variable">Puntaje</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">10</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="9267250693919258" type="System">
-                    <param id="0" name="Variable">velocidad</param>
-                    <param id="1" name="Value">5</param>
-                </action>
-                <action id="-15" name="Set visible" sid="8916233348245074" type="estrella1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3277044519848396">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="9944316928466253" type="System">
-                    <param id="0" name="Variable">Puntaje</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">15</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="1969090890339651" type="System">
-                    <param id="0" name="Variable">velocidad</param>
-                    <param id="1" name="Value">5</param>
-                </action>
-                <action id="-15" name="Set visible" sid="460149864495979" type="estrella2">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="460150982170285">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="9043873072809489" type="System">
-                    <param id="0" name="Variable">Puntaje</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">20</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="4757803925101846" type="System">
-                    <param id="0" name="Variable">velocidad</param>
-                    <param id="1" name="Value">10</param>
-                </action>
-                <action id="-15" name="Set visible" sid="1299554596471917" type="estrella3">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
