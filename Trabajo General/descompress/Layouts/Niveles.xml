@@ -105,6 +105,50 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="volumen1" uid="56">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>641</x>
+                        <y>606</y>
+                        <z>0</z>
+                        <width>39</width>
+                        <height>44</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504950523</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.699999988</opacity>
+                    </world>
+                </instance>
+                <instance type="volumen2" uid="57">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>631.47052002</x>
+                        <y>607.521118164</y>
+                        <z>0</z>
+                        <width>17</width>
+                        <height>36</height>
+                        <depth>0</depth>
+                        <hotspotX>0.509803951</hotspotX>
+                        <hotspotY>0.507042229</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.699999988</opacity>
+                    </world>
+                </instance>
                 <instance type="Regresar" uid="58">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -225,7 +269,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>601</x>
+                        <x>602</x>
                         <y>473</y>
                         <z>0</z>
                         <width>48</width>
@@ -233,50 +277,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>0.699999988</opacity>
-                    </world>
-                </instance>
-                <instance type="volumen1white" uid="48">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>641</x>
-                        <y>606</y>
-                        <z>0</z>
-                        <width>39</width>
-                        <height>44</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504950523</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>0.699999988</opacity>
-                    </world>
-                </instance>
-                <instance type="volumen2white" uid="49">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>631.471008301</x>
-                        <y>607.520996094</y>
-                        <z>0</z>
-                        <width>17</width>
-                        <height>36</height>
-                        <depth>0</depth>
-                        <hotspotX>0.509803951</hotspotX>
-                        <hotspotY>0.507042229</hotspotY>
                         <angle>0</angle>
                         <opacity>0.699999988</opacity>
                     </world>

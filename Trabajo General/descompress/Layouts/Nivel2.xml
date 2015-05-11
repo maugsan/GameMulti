@@ -120,7 +120,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Mario" uid="28">
+                <instance type="slothyNivel2" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -133,7 +133,7 @@
                                 <max-speed>330</max-speed>
                                 <acceleration>0</acceleration>
                                 <deceleration>1500</deceleration>
-                                <jump-strength>650</jump-strength>
+                                <jump-strength>0</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
                                 <default-controls>Yes</default-controls>
@@ -147,11 +147,11 @@
                         <x>168</x>
                         <y>351</y>
                         <z>0</z>
-                        <width>136</width>
-                        <height>175</height>
+                        <width>138.06060791</width>
+                        <height>162.75</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.50149256</hotspotX>
+                        <hotspotY>0.501075268</hotspotY>
                         <angle>0.001846757</angle>
                         <opacity>1</opacity>
                     </world>
