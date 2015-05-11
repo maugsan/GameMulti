@@ -10,20 +10,20 @@
     <unique-id>l3l1aldilt2s</unique-id>
     <saved-with-version>14600</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -216,6 +216,20 @@
                                 <point x="0.5" y="0.975983" />
                                 <point x="0.232877" y="0.851528" />
                                 <point x="0.0582192" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="abajo" pingpong="0" repeatcount="1" repeatto="0" sid="1223741387504174" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.484536">
+                            <collision-poly>
+                                <point x="0.25" y="0.0592783" />
+                                <point x="0.5" y="0" />
+                                <point x="0.788462" y="0.0335052" />
+                                <point x="0.961538" y="0.484536" />
+                                <point x="0.969231" y="1" />
+                                <point x="0.5" y="1" />
+                                <point x="0.242308" y="0.914948" />
+                                <point x="0.00769231" y="0.484536" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -865,6 +879,63 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7762406191501687" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="estrella1" sid="9523163591563388">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4284372591122072" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.3" y="0.315789" />
+                            <point x="0.5" y="0" />
+                            <point x="0.7" y="0.315789" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.8" y="0.789474" />
+                            <point x="0.5" y="0.868421" />
+                            <point x="0.2" y="0.789474" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="estrella2" sid="1517632961487265">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666163536969505" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.3" y="0.315789" />
+                            <point x="0.5" y="0" />
+                            <point x="0.7" y="0.315789" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.8" y="0.789474" />
+                            <point x="0.5" y="0.868421" />
+                            <point x="0.2" y="0.789474" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="estrella3" sid="2885939087734906">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3773934538343356" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.3" y="0.315789" />
+                            <point x="0.5" y="0" />
+                            <point x="0.7" y="0.315789" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.8" y="0.789474" />
+                            <point x="0.5" y="0.868421" />
+                            <point x="0.2" y="0.789474" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
