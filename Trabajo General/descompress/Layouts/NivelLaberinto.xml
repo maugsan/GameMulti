@@ -3417,7 +3417,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="cuadroVerde1" uid="20">
+                <instance type="slothyLaberinto" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3440,11 +3440,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>27</x>
-                        <y>25</y>
+                        <x>27.611999512</x>
+                        <y>37.51599884</y>
                         <z>0</z>
-                        <width>41</width>
-                        <height>37</height>
+                        <width>50</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
