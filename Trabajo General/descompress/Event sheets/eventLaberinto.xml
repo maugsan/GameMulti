@@ -3,110 +3,131 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>eventLaberinto</name>
     <events>
-        <event-block sid="359968908928863">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="8808774352529106" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="4218290130156327" type="Audio">
-                    <param id="0" name="Audio file">Jungle Zone</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;AudioLaberinto&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="9302400104804532">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="7257338330766688" type="System">
-                    <param id="0" name="Variable">Musica</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="1556519397523546" type="System" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="9200207874320293" type="volumen2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="956798995399874" type="volumen1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="0" name="Play" sid="83887711820358" type="Audio">
-                    <param id="0" name="Audio file">Jungle Zone</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;AudioLaberinto&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="594655998147617">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="8248360277441163" type="System">
-                    <param id="0" name="Variable">Musica</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="1570609537215212" type="System" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="2409809261398374" type="volumen1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="4898606583963148" type="volumen2">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="6" name="Stop" sid="8776420457680295" type="Audio">
-                    <param id="0" name="Tag">&quot;AudioLaberinto&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="961370400106931">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="6490192883930794" type="cuadroVerde1">
-                    <param id="0" name="Object">meta</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="6767465180105369" type="cuadroVerde1" />
-                <action id="-2" name="Go to layout" sid="2858512028117755" type="System">
-                    <param id="0" name="Layout">gameover</param>
-                </action>
-                <action id="6" name="Stop" sid="1942232737100269" type="Audio">
-                    <param id="0" name="Tag">&quot;AudioLaberinto&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="5375762261304281">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="3190940061598991" type="cuadroRojo">
-                    <param id="0" name="Object">cuadroVerde1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="5631214170933692" type="cuadroVerde1" />
-                <action id="-3" name="Create object" sid="2916073307276231" type="System">
-                    <param id="0" name="Object to create">cuadroVerde1</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">0</param>
-                    <param id="3" name="Y">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3902869816705714">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="5574651717088897" type="Keyboard">
-                    <param id="0" name="Key">27 (Esc)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="6220421415233936" type="System">
-                    <param id="0" name="Layout">Niveles</param>
-                </action>
-                <action id="6" name="Stop" sid="9324930869327016" type="Audio">
-                    <param id="0" name="Tag">&quot;AudioLaberinto&quot;</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group collapsed="1" description="Control de la Musica al entrar a la pantalla" sid="5285203443050246" title="ControlMusicaLaberinto">
+            <sub-events>
+                <event-block sid="359968908928863">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="8808774352529106" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="4218290130156327" type="Audio">
+                            <param id="0" name="Audio file">Jungle Zone</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;AudioLaberinto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9302400104804532">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7257338330766688" type="System">
+                            <param id="0" name="Variable">Musica</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="1556519397523546" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="9200207874320293" type="volumen2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="956798995399874" type="volumen1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="83887711820358" type="Audio">
+                            <param id="0" name="Audio file">Jungle Zone</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;AudioLaberinto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="594655998147617">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8248360277441163" type="System">
+                            <param id="0" name="Variable">Musica</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="1570609537215212" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="2409809261398374" type="volumen1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4898606583963148" type="volumen2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="6" name="Stop" sid="8776420457680295" type="Audio">
+                            <param id="0" name="Tag">&quot;AudioLaberinto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Sirve para controlar la logica del nivel bonus laberinto" sid="538882664802208" title="LogicaLaberinto">
+            <sub-events>
+                <event-block sid="961370400106931">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="6490192883930794" type="slothyLaberinto">
+                            <param id="0" name="Object">laberintoMeta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="6767465180105369" type="slothyLaberinto" />
+                        <action id="-2" name="Go to layout" sid="2858512028117755" type="System">
+                            <param id="0" name="Layout">gameover</param>
+                        </action>
+                        <action id="6" name="Stop" sid="1942232737100269" type="Audio">
+                            <param id="0" name="Tag">&quot;AudioLaberinto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5375762261304281">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="3190940061598991" type="laberintoCuadroRojo">
+                            <param id="0" name="Object">slothyLaberinto</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="5631214170933692" type="slothyLaberinto" />
+                        <action id="-3" name="Create object" sid="2916073307276231" type="System">
+                            <param id="0" name="Object to create">slothyLaberinto</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">0</param>
+                            <param id="3" name="Y">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5477583341896266">
+                    <conditions>
+                        <condition behavior="8Direction" id="1" name="Compare speed" sid="3755796191752584" type="slothyLaberinto">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Speed">45</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="Sirve para decir que accion realizar a cada boton o tecla" sid="5513104096955093" title="ControlBotonesLaberinto">
+            <sub-events>
+                <event-block sid="3902869816705714">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="5574651717088897" type="Keyboard">
+                            <param id="0" name="Key">27 (Esc)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6220421415233936" type="System">
+                            <param id="0" name="Layout">menuNiveles</param>
+                        </action>
+                        <action id="6" name="Stop" sid="9324930869327016" type="Audio">
+                            <param id="0" name="Tag">&quot;AudioLaberinto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

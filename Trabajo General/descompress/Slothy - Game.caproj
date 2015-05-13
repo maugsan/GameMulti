@@ -10,20 +10,20 @@
     <unique-id>l3l1aldilt2s</unique-id>
     <saved-with-version>14600</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
-        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -954,7 +954,7 @@
         <event-sheet>eventLaberinto.xml</event-sheet>
         <event-sheet>eventGameOver.xml</event-sheet>
         <event-sheet>eventPaginaPrincipal.xml</event-sheet>
-        <event-sheet>eventNiveles.xml</event-sheet>
+        <event-sheet>eventMenuNiveles.xml</event-sheet>
         <event-sheet>eventNivel1.xml</event-sheet>
         <event-sheet>eventFIN.xml</event-sheet>
         <event-sheet>eventNivel2.xml</event-sheet>
