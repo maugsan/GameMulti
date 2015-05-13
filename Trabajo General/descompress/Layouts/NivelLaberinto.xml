@@ -3331,7 +3331,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="laberintoMeta" uid="22">
+                <instance type="meta" uid="22">
                     <properties>
                         <text>META</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -3375,7 +3375,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="laberintoCuadroRojo" uid="19">
+                <instance type="cuadroRojo" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3417,7 +3417,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="slothyLaberinto" uid="20">
+                <instance type="cuadroVerde1" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3440,11 +3440,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>27.611999512</x>
-                        <y>37.51599884</y>
+                        <x>27</x>
+                        <y>25</y>
                         <z>0</z>
-                        <width>50</width>
-                        <height>64</height>
+                        <width>41</width>
+                        <height>37</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
