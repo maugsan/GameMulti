@@ -42,8 +42,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="9840203423171998" type="System">
-                    <param id="0" name="Layout">Niveles</param>
+                <action id="-2" name="Go to layout" sid="6322050976681721" type="System">
+                    <param id="0" name="Layout">menuNiveles</param>
                 </action>
             </actions>
         </event-block>
