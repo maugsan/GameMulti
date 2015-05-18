@@ -1,2 +1,0 @@
-http://www.api.kiwijs.org/
-http://examples.kiwijs.org/
