@@ -27,7 +27,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="FondoFIN" uid="15">
+                <instance type="FondoFIN" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MisPuntos" uid="18">
+                <instance type="MisPuntos" uid="21">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -76,7 +76,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Record" uid="12">
+                <instance type="Record" uid="23">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -130,7 +130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tNivel1" uid="16">
+                <instance type="tNivel1" uid="24">
                     <properties>
                         <text>Nivel1</text>
                         <initial-visibility>Visible</initial-visibility>

@@ -27,7 +27,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Fondo2" uid="21">
+                <instance type="Fondo2" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="contador2" uid="23">
+                <instance type="contador2" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -71,7 +71,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="contador" uid="24">
+                <instance type="contador" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -93,7 +93,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Puntos" uid="25">
+                <instance type="Puntos" uid="30">
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -120,7 +120,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="slothyNivel2" uid="28">
+                <instance type="slothyNivel2" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -156,7 +156,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="base1" uid="29">
+                <instance type="base1" uid="42">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -178,7 +178,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="suelo" uid="30">
+                <instance type="suelo" uid="46">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -207,7 +207,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pared" uid="31">
+                <instance type="pared" uid="68">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>

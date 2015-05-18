@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>eventLaberinto</name>
     <events>
+        <variable comment="Para agregar puntos al global" constant="0" name="PuntosBonusLaberinto" sid="6071891301090928" static="0" type="number">0</variable>
         <event-group collapsed="1" description="Control de la Musica al entrar a la pantalla" sid="5285203443050246" title="ControlMusicaLaberinto">
             <sub-events>
                 <event-block sid="359968908928863">
@@ -93,7 +94,7 @@
                         <action id="-9" name="Destroy" sid="5631214170933692" type="slothyLaberinto" />
                         <action id="-3" name="Create object" sid="2916073307276231" type="System">
                             <param id="0" name="Object to create">slothyLaberinto</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="X">0</param>
                             <param id="3" name="Y">0</param>
                         </action>
@@ -101,12 +102,17 @@
                 </event-block>
                 <event-block sid="5477583341896266">
                     <conditions>
-                        <condition behavior="8Direction" id="1" name="Compare speed" sid="3755796191752584" type="slothyLaberinto">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Speed">45</param>
+                        <condition id="0" name="On collision with another object" sid="3755796191752584" type="slothyLaberinto">
+                            <param id="0" name="Object">estrellaPuntosLaberinto</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="-9" name="Destroy" sid="731434511215041" type="estrellaPuntosLaberinto" />
+                        <action id="-10" name="Add to" sid="3021563772982262" type="System">
+                            <param id="0" name="Variable">PuntosBonusLaberinto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

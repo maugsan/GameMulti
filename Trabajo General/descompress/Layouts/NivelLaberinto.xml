@@ -780,10 +780,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>305</x>
-                        <y>520</y>
+                        <y>507.55480957</y>
                         <z>0</z>
                         <width>38</width>
-                        <height>66</height>
+                        <height>80.890319824</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1899,7 +1899,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>74</x>
-                        <y>543</y>
+                        <y>547</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2275,8 +2275,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>202</x>
-                        <y>571</y>
+                        <x>200.869171143</x>
+                        <y>561.488586426</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2537,7 +2537,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>249</x>
-                        <y>455</y>
+                        <y>441</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2566,7 +2566,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>291</x>
-                        <y>469</y>
+                        <y>455</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2594,8 +2594,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>319.06463623</x>
-                        <y>571.079711914</y>
+                        <x>319.065002441</x>
+                        <y>561.489013672</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66.797729492</height>
@@ -2739,8 +2739,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>377.785705566</x>
-                        <y>571.441162109</y>
+                        <x>377.786010742</x>
+                        <y>561.489013672</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66.797729492</height>
@@ -2769,7 +2769,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>457.491760254</x>
-                        <y>470.917114258</y>
+                        <y>461.917114258</y>
                         <z>0</z>
                         <width>38.000030518</width>
                         <height>67.594848633</height>
@@ -2798,7 +2798,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>523.61138916</x>
-                        <y>470.48147583</y>
+                        <y>461.48147583</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66.797729492</height>
@@ -2856,7 +2856,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>443</x>
-                        <y>301</y>
+                        <y>307</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2943,7 +2943,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>443.210174561</x>
-                        <y>432.897155762</y>
+                        <y>423.897155762</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -3262,7 +3262,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>538</x>
-                        <y>253</y>
+                        <y>247</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -3320,7 +3320,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>539</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -3427,11 +3427,11 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>200</max-speed>
+                                <max-speed>400</max-speed>
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
-                                <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <directions>4 directions</directions>
+                                <set-angle>No</set-angle>
                                 <default-controls>Yes</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3445,6 +3445,292 @@
                         <z>0</z>
                         <width>50</width>
                         <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="12">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>306</x>
+                        <y>255</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="15">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>375</x>
+                        <y>412</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>119</x>
+                        <y>268</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="74">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>492</x>
+                        <y>614</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="187">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>206</x>
+                        <y>228</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="188">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>73</x>
+                        <y>612</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="189">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>206</x>
+                        <y>499</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="190">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>302</x>
+                        <y>34</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="191">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>488</x>
+                        <y>41</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="192">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>203</x>
+                        <y>615</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="193">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>402</x>
+                        <y>308</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="194">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>493</x>
+                        <y>151</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="estrellaPuntosLaberinto" uid="195">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>544</x>
+                        <y>326</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>38</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
