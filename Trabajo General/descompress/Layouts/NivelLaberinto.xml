@@ -809,7 +809,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>456.940185547</x>
-                        <y>91.217834473</y>
+                        <y>103.217834473</y>
                         <z>0</z>
                         <width>38.000030518</width>
                         <height>67.594848633</height>
@@ -838,7 +838,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>523.059814453</x>
-                        <y>91.782196045</y>
+                        <y>103.782196045</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66.797729492</height>
@@ -1928,7 +1928,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>160</x>
-                        <y>101</y>
+                        <y>113</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2827,7 +2827,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>443</x>
-                        <y>135</y>
+                        <y>147</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2856,7 +2856,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>443</x>
-                        <y>307</y>
+                        <y>317</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -2885,7 +2885,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>356</x>
-                        <y>100</y>
+                        <y>112</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -3291,7 +3291,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>443</x>
-                        <y>154</y>
+                        <y>145</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -3320,7 +3320,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>539</x>
-                        <y>400</y>
+                        <y>416</y>
                         <z>0</z>
                         <width>38</width>
                         <height>66</height>
@@ -3375,83 +3375,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="laberintoCuadroRojo" uid="19">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>10</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>150</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>489</x>
-                        <y>282</y>
-                        <z>0</z>
-                        <width>24</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="slothyLaberinto" uid="20">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>400</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>4 directions</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>27.611999512</x>
-                        <y>37.51599884</y>
-                        <z>0</z>
-                        <width>50</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="estrellaPuntosLaberinto" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3731,6 +3654,100 @@
                         <z>0</z>
                         <width>40</width>
                         <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="CazadorSlothy" sid="8406994899176946">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="cazadorLaberinto" uid="19">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Vertical</movement>
+                                <wave>Sine</wave>
+                                <period>10</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>150</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>493.703979492</x>
+                        <y>263.700012207</y>
+                        <z>0</z>
+                        <width>34</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="slothyLaberinto" uid="20">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>400</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>4 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>27.611999512</x>
+                        <y>37.51599884</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
