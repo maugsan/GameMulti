@@ -10,19 +10,19 @@
     <unique-id>l3l1aldilt2s</unique-id>
     <saved-with-version>14600</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -736,7 +736,7 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder expanded="0" name="Global">
+        <object-folder expanded="1" name="Global">
             <object-type name="close" sid="9400196123833616">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
@@ -795,10 +795,10 @@
             <object-type name="Audio" sid="9739855618110783">
                 <plugin id="Audio" />
             </object-type>
-            <object-type name="Keyboard" sid="2994073301488978">
+            <object-type name="KeyboardGlobal" sid="2994073301488978">
                 <plugin id="Keyboard" />
             </object-type>
-            <object-type name="Touch" sid="6343269066750671">
+            <object-type name="TouchGobal" sid="6343269066750671">
                 <plugin id="Touch" />
             </object-type>
             <object-type name="Browser" sid="9830008332443302">
@@ -1588,7 +1588,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="2891877251594706">
+        <object-type name="Spritenose" sid="2891877251594706">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6362632910438327" speed="5">
@@ -1634,8 +1634,8 @@
             </properties>
         </global-instance>
         <global-instance type="Browser" uid="72" />
-        <global-instance type="Keyboard" uid="73" />
-        <global-instance type="Touch" uid="69">
+        <global-instance type="KeyboardGlobal" uid="73" />
+        <global-instance type="TouchGobal" uid="69">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>

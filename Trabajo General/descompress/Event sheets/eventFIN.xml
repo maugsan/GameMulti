@@ -5,7 +5,7 @@
     <events>
         <event-block sid="1145619543001544">
             <conditions>
-                <condition id="3" name="On touched object" sid="8831705796597628" type="Touch">
+                <condition id="3" name="On touched object" sid="8831705796597628" type="TouchGobal">
                     <param id="0" name="Object">tNivel1</param>
                 </condition>
             </conditions>
@@ -37,7 +37,7 @@
         </event-block>
         <event-block sid="4387606528743609">
             <conditions>
-                <condition id="0" name="On key pressed" sid="9273637743021517" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="9273637743021517" type="KeyboardGlobal">
                     <param id="0" name="Key">27 (Esc)</param>
                 </condition>
             </conditions>

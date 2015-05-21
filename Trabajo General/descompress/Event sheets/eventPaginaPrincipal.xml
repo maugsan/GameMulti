@@ -194,7 +194,7 @@
             <sub-events>
                 <event-block sid="5093401801431879">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="2100525702579013" type="Touch">
+                        <condition id="3" name="On touched object" sid="2100525702579013" type="TouchGobal">
                             <param id="0" name="Object">close</param>
                         </condition>
                     </conditions>
@@ -204,7 +204,7 @@
                 </event-block>
                 <event-block sid="9444710442992093">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="1483263805375325" type="Touch">
+                        <condition id="3" name="On touched object" sid="1483263805375325" type="TouchGobal">
                             <param id="0" name="Object">principalIniciar</param>
                         </condition>
                     </conditions>
@@ -219,7 +219,7 @@
                 </event-block>
                 <event-block sid="3880789241335946">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="978744403731114" type="Touch">
+                        <condition id="3" name="On touched object" sid="978744403731114" type="TouchGobal">
                             <param id="0" name="Object">volumen1</param>
                         </condition>
                     </conditions>
@@ -232,7 +232,7 @@
                 </event-block>
                 <event-block sid="7690079949612329">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="2112434388781606" type="Touch">
+                        <condition id="3" name="On touched object" sid="2112434388781606" type="TouchGobal">
                             <param id="0" name="Object">volumen2</param>
                         </condition>
                     </conditions>
@@ -245,7 +245,7 @@
                 </event-block>
                 <event-block sid="6977561367881207">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="7756158468515474" type="Touch">
+                        <condition id="3" name="On touched object" sid="7756158468515474" type="TouchGobal">
                             <param id="0" name="Object">principalMono</param>
                         </condition>
                     </conditions>
@@ -260,7 +260,7 @@
                 </event-block>
                 <event-block sid="7568937499895425">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="8796775641171575" type="Touch">
+                        <condition id="3" name="On touched object" sid="8796775641171575" type="TouchGobal">
                             <param id="0" name="Object">principalMono2</param>
                         </condition>
                     </conditions>
@@ -275,7 +275,7 @@
                 </event-block>
                 <event-block sid="6699343921702825">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="6726342623309595" type="Touch">
+                        <condition id="3" name="On touched object" sid="6726342623309595" type="TouchGobal">
                             <param id="0" name="Object">principalRana</param>
                         </condition>
                     </conditions>
@@ -290,7 +290,7 @@
                 </event-block>
                 <event-block sid="1782426720365129">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="8823112278490378" type="Touch">
+                        <condition id="3" name="On touched object" sid="8823112278490378" type="TouchGobal">
                             <param id="0" name="Object">principalRana2</param>
                         </condition>
                     </conditions>
@@ -305,7 +305,7 @@
                 </event-block>
                 <event-block sid="7424799181691182">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="5922529137385956" type="Touch">
+                        <condition id="3" name="On touched object" sid="5922529137385956" type="TouchGobal">
                             <param id="0" name="Object">principalGato</param>
                         </condition>
                     </conditions>
@@ -320,7 +320,7 @@
                 </event-block>
                 <event-block sid="7931408706145384">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="2355492836567727" type="Touch">
+                        <condition id="3" name="On touched object" sid="2355492836567727" type="TouchGobal">
                             <param id="0" name="Object">principalGato2</param>
                         </condition>
                     </conditions>

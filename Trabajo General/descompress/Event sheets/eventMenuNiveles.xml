@@ -314,7 +314,7 @@
             <sub-events>
                 <event-block sid="5019037186861862">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="7743576978708991" type="Touch">
+                        <condition id="3" name="On touched object" sid="7743576978708991" type="TouchGobal">
                             <param id="0" name="Object">nivelesNivel2</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="6872273700720593" type="System">
@@ -334,7 +334,7 @@
                 </event-block>
                 <event-block sid="9072366706864182">
                     <conditions>
-                        <condition id="0" name="On key pressed" sid="1697341102925793" type="Keyboard">
+                        <condition id="0" name="On key pressed" sid="1697341102925793" type="KeyboardGlobal">
                             <param id="0" name="Key">27 (Esc)</param>
                         </condition>
                     </conditions>
@@ -349,7 +349,7 @@
                 </event-block>
                 <event-block sid="9187519418271944">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="4938857302945774" type="Touch">
+                        <condition id="3" name="On touched object" sid="4938857302945774" type="TouchGobal">
                             <param id="0" name="Object">volumen1white</param>
                         </condition>
                     </conditions>
@@ -362,7 +362,7 @@
                 </event-block>
                 <event-block sid="5436268595980929">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="7634138807074703" type="Touch">
+                        <condition id="3" name="On touched object" sid="7634138807074703" type="TouchGobal">
                             <param id="0" name="Object">volumen2white</param>
                         </condition>
                     </conditions>
@@ -375,7 +375,7 @@
                 </event-block>
                 <event-block sid="1198061049111508">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="6301955137561655" type="Touch">
+                        <condition id="3" name="On touched object" sid="6301955137561655" type="TouchGobal">
                             <param id="0" name="Object">Regresar</param>
                         </condition>
                     </conditions>
@@ -390,7 +390,7 @@
                 </event-block>
                 <event-block sid="3779695588454938">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="1372395305395091" type="Touch">
+                        <condition id="3" name="On touched object" sid="1372395305395091" type="TouchGobal">
                             <param id="0" name="Object">nivelesNivel1</param>
                         </condition>
                     </conditions>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventGameOver</name>
+    <events>
+        <event-block sid="5572507892520035">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="798828378935294" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="6509719386063766" type="Audio">
+                    <param id="0" name="Audio file">Ending</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;AudioGameOver&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5190062204017932">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1831621771959266" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">again</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6322050976681721" type="System">
+                    <param id="0" name="Layout">menuNiveles</param>
+                </action>
+                <action id="6" name="Stop" sid="170336409064901" type="Audio">
+                    <param id="0" name="Tag">&quot;AudioGameOver&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

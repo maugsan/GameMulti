@@ -221,7 +221,7 @@
         </event-block>
         <event-block sid="499998038558673">
             <conditions>
-                <condition id="0" name="On any touch start" sid="353237676833994" type="Touch" />
+                <condition id="0" name="On any touch start" sid="353237676833994" type="TouchGobal" />
             </conditions>
             <actions>
                 <action behavior="Platform" id="9" name="Set vector Y" sid="9814627492729859" type="slotyNivel1">

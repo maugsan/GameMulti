@@ -147,7 +147,7 @@
         </event-block>
         <event-block sid="5884867020576142">
             <conditions>
-                <condition id="4" name="On key code pressed" sid="1523072106596846" type="Keyboard">
+                <condition id="4" name="On key code pressed" sid="1523072106596846" type="KeyboardGlobal">
                     <param id="0" name="Keycode">38</param>
                 </condition>
             </conditions>

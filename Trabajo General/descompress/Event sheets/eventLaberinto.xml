@@ -81,7 +81,7 @@
                 </event-block>
                 <event-block sid="3833046584644786">
                     <conditions>
-                        <condition id="4" name="On key code pressed" sid="3366744694747884" type="Keyboard">
+                        <condition id="4" name="On key code pressed" sid="3366744694747884" type="KeyboardGlobal">
                             <param id="0" name="Keycode">38</param>
                         </condition>
                     </conditions>
@@ -94,7 +94,7 @@
                 </event-block>
                 <event-block sid="1596915500537275">
                     <conditions>
-                        <condition id="4" name="On key code pressed" sid="8273365466400816" type="Keyboard">
+                        <condition id="4" name="On key code pressed" sid="8273365466400816" type="KeyboardGlobal">
                             <param id="0" name="Keycode">39</param>
                         </condition>
                     </conditions>
@@ -107,7 +107,7 @@
                 </event-block>
                 <event-block sid="8981342892177259">
                     <conditions>
-                        <condition id="4" name="On key code pressed" sid="5435550949567375" type="Keyboard">
+                        <condition id="4" name="On key code pressed" sid="5435550949567375" type="KeyboardGlobal">
                             <param id="0" name="Keycode">37</param>
                         </condition>
                     </conditions>
@@ -120,7 +120,7 @@
                 </event-block>
                 <event-block sid="5031182500427494">
                     <conditions>
-                        <condition id="4" name="On key code pressed" sid="6794297654715447" type="Keyboard">
+                        <condition id="4" name="On key code pressed" sid="6794297654715447" type="KeyboardGlobal">
                             <param id="0" name="Keycode">40</param>
                         </condition>
                     </conditions>
@@ -187,7 +187,7 @@
             <sub-events>
                 <event-block sid="3902869816705714">
                     <conditions>
-                        <condition id="0" name="On key pressed" sid="5574651717088897" type="Keyboard">
+                        <condition id="0" name="On key pressed" sid="5574651717088897" type="KeyboardGlobal">
                             <param id="0" name="Key">27 (Esc)</param>
                         </condition>
                     </conditions>
